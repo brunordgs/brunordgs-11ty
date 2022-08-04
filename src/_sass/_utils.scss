@@ -1,0 +1,10 @@
+@mixin add_gradient_bottom($marginTop: 0.4rem) {
+	&::after {
+		content: '';
+		width: 100%;
+		height: 0.2rem;
+		display: block;
+		margin-top: $marginTop;
+		background: $purple-blue-gradient;
+	}
+}

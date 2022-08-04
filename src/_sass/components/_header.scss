@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3.2rem;
+	margin-bottom: 6.4rem;
+
+	&__logo {
+		font-size: $lg;
+		user-select: none;
+		@include font_semibold;
+	}
+
+	&__navList {
+		display: flex;
+		align-items: center;
+
+		&Item {
+			@include font_semibold;
+			font-size: 1.9rem;
+			padding: 1.6rem;
+			@include add_gradient_bottom;
+		}
+	}
+}
+
+@media (min-width: $tablet) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

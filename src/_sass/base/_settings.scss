@@ -1,0 +1,22 @@
+/* Font Family */
+$font-family-light: 'Work Sans Light', sans-serif;
+$font-weight-light: 300;
+$font-family-main: 'Work Sans Regular', sans-serif;
+$font-weight-main: 400;
+$font-family-heading: 'Work Sans SemiBold', sans-serif;
+$font-weight-heading: 500;
+
+/* Spacing */
+$sm: 1.2rem;
+$md: 1.6rem;
+$lg: 3.2rem;
+$xl: 4.8rem;
+
+/* Gradient */
+$purple-blue-gradient: linear-gradient(#781ed8, #261d84);
+
+/* Breakpoints */
+$mobile: 640px;
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1280px;

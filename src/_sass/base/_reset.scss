@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	background: $purple-blue-gradient;
+	min-height: 100vh;
+	padding: 0.8rem;
+
+	@media (min-width: $tablet) {
+		padding: 1.2rem;
+	}
+}
+
+body {
+	@include font_light;
+	font-size: $md;
+	padding: 1.6rem 3.2rem;
+	background: white;
+	border-radius: 1rem;
+	overflow-y: scroll;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h6 {
+	font-family: $font-family-heading;
+}
