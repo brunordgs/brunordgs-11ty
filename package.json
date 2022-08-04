@@ -1,17 +1,22 @@
 {
-  "name": "bloggy",
+  "name": "brunordgs-blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+		"dev": "pnpm run watch:eleventy & pnpm run watch:sass",
+    "watch:eleventy": "eleventy --serve",
+    "build": "eleventy",
+		"watch:sass": "sass --watch ./src/_sass:src/_css",
+		"build:sass": "sass ./src/_sass:src/_css",
+    "prettier": "prettier -w \"./src/**/*.js\""
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^1.0.1",
+    "prettier": "^2.7.1"
   },
-  "packageManager": "^pnpm@7.8.0"
+  "packageManager": "^pnpm@7.8.0",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
 }
