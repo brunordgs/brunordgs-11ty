@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Work Sans Light';
+	src: url('/fonts/WorkSans-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans Regular';
+	src: url('/fonts/WorkSans-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans SemiBold';
+	src: url('/fonts/WorkSans-SemiBold.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@mixin font_light {
+	font-weight: $font-weight-light;
+	font-family: $font-family-light;
+}
+
+@mixin font_main {
+	font-weight: $font-weight-main;
+	font-family: $font-family-main;
+}
+
+@mixin font_semibold {
+	font-weight: $font-weight-heading;
+	font-family: $font-family-heading;
+}
