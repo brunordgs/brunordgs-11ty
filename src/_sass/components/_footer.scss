@@ -1,0 +1,21 @@
+.footer {
+	max-width: $desktop;
+	margin: 6.4rem auto;
+
+	&__copyright {
+		@include font_bold;
+		font-size: 1.92rem;
+	}
+
+	&__text {
+		margin-top: 1.6rem;
+		text-align: left;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+
+		> span:first-child {
+			user-select: none;
+		}
+	}
+}
