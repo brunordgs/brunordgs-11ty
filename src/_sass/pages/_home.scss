@@ -1,0 +1,24 @@
+.home {
+	margin: 0 auto;
+	max-width: $desktop;
+
+	&About {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		&__title {
+			font-size: clamp(4.8rem, 4vw, 6.4rem);
+		}
+
+		&__subtitle {
+			font-size: 2.24rem;
+			margin-bottom: 3.2rem;
+		}
+
+		&__miniBio {
+			max-width: $mobile;
+			font-size: 2.24rem;
+		}
+	}
+}
