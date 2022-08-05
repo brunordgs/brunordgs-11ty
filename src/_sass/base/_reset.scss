@@ -19,17 +19,13 @@ body {
 	@include font_light;
 	font-size: $md;
 	padding: 1.6rem 3.2rem;
-	background: white;
+	background: var(--color-bg);
 	border-radius: 1rem;
-	overflow-y: scroll;
-
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	color: var(--color-text);
 }
 
 a {
 	color: inherit;
-	text-decoration: none;
 }
 
 li {
@@ -43,4 +39,17 @@ h4,
 h5,
 h6 {
 	font-family: $font-family-heading;
+}
+
+b,
+strong {
+	@include font_bold;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+		--color-bg: var(--black);
+		--color-text: var(--white);
+	}
 }
