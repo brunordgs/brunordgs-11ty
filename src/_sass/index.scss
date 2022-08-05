@@ -1,5 +1,8 @@
 @import 'fonts/font';
-@import 'base/settings';
+@import 'base/root';
+@import 'base/variables';
 @import 'base/reset';
 @import 'utils';
 @import 'components/header';
+@import 'components/footer';
+@import 'pages/home';
