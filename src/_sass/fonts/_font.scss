@@ -25,6 +25,15 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Work Sans Bold';
+	src: url('/fonts/WorkSans-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
 @mixin font_light {
 	font-weight: $font-weight-light;
 	font-family: $font-family-light;
@@ -39,3 +48,9 @@
 	font-weight: $font-weight-heading;
 	font-family: $font-family-heading;
 }
+
+@mixin font_bold {
+	font-weight: $font-weight-bold;
+	font-family: $font-family-bold;
+}
+
