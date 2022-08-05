@@ -14,14 +14,22 @@
 		@include font_semibold;
 	}
 
+	nav {
+		display: flex;
+		align-items: center;
+	}
+
 	&__navList {
 		display: flex;
 		align-items: center;
 
+		border-right: 1px solid var(--border-color);
+		padding-right: 1.2rem;
+		margin-right: 1.2rem;
+
 		&Item {
 			@include font_semibold;
 			font-size: 1.9rem;
-			padding: 1.6rem;
 			@include add_gradient_bottom;
 
 			&Link {
