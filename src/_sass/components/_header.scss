@@ -1,9 +1,12 @@
 .header {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	margin-top: 3.2rem;
 	margin-bottom: 6.4rem;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
 	&__logo {
 		font-size: $lg;
@@ -20,13 +23,24 @@
 			font-size: 1.9rem;
 			padding: 1.6rem;
 			@include add_gradient_bottom;
+
+			&Link {
+				text-decoration: none;
+			}
 		}
 	}
 }
 
 @media (min-width: $tablet) {
-	.header {
+	.header__container {
 		flex-direction: row;
 		justify-content: space-between;
+	}
+}
+
+@media (min-width: $desktop) {
+	.header__container {
+		margin: 0 auto;
+		max-width: $desktop;
 	}
 }
