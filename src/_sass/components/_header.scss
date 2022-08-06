@@ -1,6 +1,6 @@
 .header {
 	margin-top: 3.2rem;
-	margin-bottom: 6.4rem;
+	margin-bottom: 9.6rem;
 
 	&__container {
 		display: flex;
@@ -22,10 +22,6 @@
 	&__navList {
 		display: flex;
 		align-items: center;
-
-		border-right: 1px solid var(--border-color);
-		padding-right: 1.2rem;
-		margin-right: 1.2rem;
 
 		&Item {
 			@include font_semibold;
