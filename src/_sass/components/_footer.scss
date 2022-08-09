@@ -15,6 +15,16 @@
 		}
 	}
 
+	&__link {
+		display: flex;
+		align-items: center;
+		gap: 1.2rem;
+
+		&Text {
+			@include font_bold;
+		}
+	}
+
 	&__copyright {
 		@include font_bold;
 		font-size: 1.92rem;

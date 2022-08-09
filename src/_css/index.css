@@ -70,6 +70,9 @@ body {
 
 a {
   color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 0.2rem;
 }
 
 li {
@@ -101,7 +104,12 @@ strong {
 }
 .header {
   margin-top: 3.2rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 7rem;
+}
+@media (min-width: 1280px) {
+  .header {
+    margin-bottom: 12rem;
+  }
 }
 .header__container {
   display: flex;
@@ -117,6 +125,12 @@ strong {
 .header nav {
   display: flex;
   align-items: center;
+  margin-top: 2rem;
+}
+@media (min-width: 1280px) {
+  .header nav {
+    margin-top: 0;
+  }
 }
 .header__navList {
   display: flex;
@@ -174,6 +188,15 @@ strong {
   .footer__links {
     gap: 24rem;
   }
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.footer__linkText {
+  font-weight: 700;
+  font-family: "Work Sans Bold", sans-serif;
 }
 .footer__copyright {
   font-weight: 700;
