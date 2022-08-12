@@ -1,0 +1,18 @@
+.aboutContent {
+	&__title {
+		display: inline-block;
+		@include add_gradient_bottom;
+		font-size: 3.2rem;
+
+		.colorHighlight {
+			color: var(--color-text-highlight);
+		}
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+		--color-text-highlight: var(--light-purple)
+	}
+}

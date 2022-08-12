@@ -6,7 +6,7 @@ exports.data = {
 
 exports.render = function () {
 	return /* html */ `
-		<section class="home">
+		<section class="container">
 			<div class="homeAbout">
 				<div>
 					<h1 class="homeAbout__title">Bruno Rodrigues</h1>

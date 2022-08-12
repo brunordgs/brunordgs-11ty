@@ -10,6 +10,11 @@ html {
 	min-height: 100vh;
 	padding: 0.8rem;
 
+	::selection {
+		color: var(--color-selection);
+		background: $purple;
+	}
+
 	@media (min-width: $tablet) {
 		padding: 1.2rem;
 	}
@@ -27,8 +32,8 @@ body {
 a {
 	color: inherit;
 	text-decoration: underline;
-  text-underline-offset: 0.2rem;
-  text-decoration-thickness: 0.2rem;
+	text-underline-offset: 0.2rem;
+	text-decoration-thickness: 0.2rem;
 }
 
 li {
@@ -49,11 +54,18 @@ strong {
 	@include font_bold;
 }
 
+.container {
+	margin: 0 auto;
+	max-width: $desktop;
+}
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		color-scheme: dark;
 		--color-bg: var(--black);
 		--color-text: var(--gray);
+		--color-selection: var(--black);
+		--color-text-highlight: var(--black)
 		--border-color: var(--gray);
 	}
 }

@@ -3,7 +3,7 @@
 	margin-bottom: 7rem;
 
 	@media (min-width: $desktop) {
-		margin-bottom: 12rem;
+		margin-bottom: 9.6rem;
 	}
 
 	&__container {
@@ -21,7 +21,7 @@
 	nav {
 		display: flex;
 		align-items: center;
-		margin-top: 2rem;
+		margin-top: 1rem;
 
 		@media (min-width: $desktop) {
 			margin-top: 0;
@@ -36,6 +36,7 @@
 			@include font_semibold;
 			font-size: 1.9rem;
 			@include add_gradient_bottom;
+			padding: 1.6rem;
 
 			&Link {
 				text-decoration: none;

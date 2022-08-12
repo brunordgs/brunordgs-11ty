@@ -8,6 +8,7 @@
 		background: $purple-blue-gradient;
 	}
 }
+
 @mixin add_gradient_top($marginBottom: 0.4rem) {
 	&::before {
 		content: '';

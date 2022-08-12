@@ -5,6 +5,10 @@ exports.data = {
 
 exports.render = function () {
 	return /* html */ `
-    <div>About me.</div>
+    <section class="container">
+			<div class="aboutContent">
+					<h1 class="aboutContent__title">love <span class="colorHighlight">what I do</span></h1>
+			</div>
+		</section>
   `;
 };
