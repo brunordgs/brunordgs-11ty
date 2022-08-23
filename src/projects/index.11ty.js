@@ -1,13 +1,13 @@
 exports.data = {
 	layout: 'base.html',
-	title: 'About me / Bruno Rodrigues',
+	title: 'Projects / Bruno Rodrigues',
 };
 
 exports.render = function () {
 	return /* html */ `
     <section class="container">
 			<div class="aboutContent">
-				<h1 class="aboutContent__title">know <span class="colorHighlight">who I am</span></h1>
+				<h1 class="aboutContent__title">learn <span class="colorHighlight">stuff</span></h1>
 			</div>
 		</section>
   `;

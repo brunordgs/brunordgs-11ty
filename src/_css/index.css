@@ -41,7 +41,7 @@
   --color-bg: var(--white);
   --color-text: var(--black);
   --color-selection: var(--white);
-  --color-text-highlight: var(--purple);
+  --color-text-highlight: var(--black);
   --border-color: var(--black);
 }
 
@@ -118,7 +118,7 @@ strong {
     --color-bg: var(--black);
     --color-text: var(--gray);
     --color-selection: var(--black);
-    --color-text-highlight: var(--black)
+    --color-text-highlight: var(--purple);
     --border-color: var(--gray);
   }
 }
