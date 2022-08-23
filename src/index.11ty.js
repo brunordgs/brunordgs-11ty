@@ -86,7 +86,7 @@ exports.render = function () {
 </svg>
 									Learn more</a>
 
-									<a href="/" class="homeCard__seeAllCta">See all projects <span class="colorHighlight" aria-hidden="true">→</span></a>
+									<a href="/projects" class="homeCard__seeAllCta">See all projects <span class="colorHighlight" aria-hidden="true">→</span></a>
 							</div>
 						</div>
 					</div>	

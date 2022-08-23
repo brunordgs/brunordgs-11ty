@@ -16,7 +16,7 @@ $purple-dark: #261d84;
 $gray-dark: var(--gray-dark);
 $light-purple: var(--light-purple);
 $purple: var(--purple);
-$purple-blue-gradient: linear-gradient($purple, $purple-dark);
+$purple-blue-gradient: linear-gradient(-45deg, $purple, $purple-dark);
 
 $mobile: 640px;
 $tablet: 768px;
