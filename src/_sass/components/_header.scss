@@ -32,7 +32,7 @@
 		display: flex;
 		align-items: center;
 
-		&Item {
+		.header__navListItem {
 			@include font_semibold;
 			font-size: 1.9rem;
 			@include add_gradient_bottom;

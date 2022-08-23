@@ -12,10 +12,11 @@ $md: 1.6rem;
 $lg: 3.2rem;
 $xl: 4.8rem;
 
-$purple: #781ed8;
-$light-purple: #a048ff;
-$dark-purple: #261d84;
-$purple-blue-gradient: linear-gradient($purple, $dark-purple);
+$purple-dark: #261d84;
+$gray-dark: var(--gray-dark);
+$light-purple: var(--light-purple);
+$purple: var(--purple);
+$purple-blue-gradient: linear-gradient($purple, $purple-dark);
 
 $mobile: 640px;
 $tablet: 768px;

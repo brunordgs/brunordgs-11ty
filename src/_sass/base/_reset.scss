@@ -59,6 +59,10 @@ strong {
 	max-width: $desktop;
 }
 
+.colorHighlight {
+	color: var(--color-text-highlight);
+}
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		color-scheme: dark;
