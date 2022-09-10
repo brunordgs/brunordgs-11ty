@@ -40,6 +40,10 @@
 
 			&Link {
 				text-decoration: none;
+
+				&:focus {
+					outline-offset: 2rem;
+				}
 			}
 		}
 	}

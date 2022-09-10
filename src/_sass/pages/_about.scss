@@ -1,8 +1,43 @@
-.aboutContent {
+.about {
 	&__title {
 		display: inline-block;
 		@include add_gradient_bottom;
 		font-size: 3.2rem;
+		margin-bottom: 3.2rem;
+	}
+
+	&__bio {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 3.2rem;
+		max-width: 80rem;
+
+		.about__mePhoto {
+			width: 32rem;
+			border-radius: 0.4rem;
+		}
+
+		h2 {
+			font: $font-weight-heading clamp(2.88rem, 4.48vw, 3.2rem) $font-family-heading;
+			line-height: 2;
+			color: var(--color-text-highlight);
+		}
+
+		h3 {
+			font: $font-weight-heading 2.24rem $font-family-heading;
+			line-height: 1.4;
+			margin-bottom: 1.6rem;
+		}
+
+		p {
+			font: $font-weight-light 1.9rem $font-family-light;
+		}
+
+		@media (min-width: $tablet) {
+			flex-direction: row;
+			align-items: flex-start;
+		}
 	}
 }
 

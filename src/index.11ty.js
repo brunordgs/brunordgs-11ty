@@ -1,7 +1,8 @@
 exports.data = {
 	layout: 'base.html',
 	title: 'Bruno Rodrigues',
-	metaDescription: 'I help developers build stuff, learn things through communities and building products that make developer\'s lives easier.',
+	metaDescription:
+		'I help developers develop in tech, learn through communities and build products that make people\'s lives easier.',
 };
 
 exports.render = function () {
@@ -17,8 +18,8 @@ exports.render = function () {
 						I'm a
 						<a href="https://github.com/brunordgs" class="colorHighlight" target="_blank" rel="nofollow noreferrer">
 							software engineer</a>
-						and a lover of new technologies. I help developers build stuff, learn things through
-						communities and building products that make developer's lives easier.
+						and a lover of new technologies. I help developers develop in tech, learn through
+						communities and build products that make people's lives easier.
 					</p>
 				</div>
 
@@ -31,8 +32,7 @@ exports.render = function () {
 						<div class="homeCard">
 							<h4 class="homeCard__title">A little more about me</h4>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia totam earum saepe
-								provident nisi repudiandae veritatis laborum, voluptatum fugit recusandae.
+								Build some stuff, improving every day is a way to make me grow up and one day I'll be there. You should do the same.
 							</p>
 							<div class="homeCard__actions">
 								<a
@@ -67,16 +67,15 @@ exports.render = function () {
 						</div>
 					</div>
 
-					<div class="home__item">
+					<!-- <div class="home__item">
 						<h3 class="home__itemTitle">
-							learn <span class="colorHighlight">stuff</span>
+							check <span class="colorHighlight">my stuff</span>
 						</h3>
 
 						<div class="homeCard">
 							<h4 class="homeCard__title">Maybe I can help you</h4>
 							<p>
-								Nowadays, I'm working at specific projects and this is how I've been learning so much
-								without wasting time.
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ab maiores iste magni adipisci. Vero ea ab neque, sunt voluptates, laboriosam corrupti repellat.
 							</p>
 							<div class="homeCard__actions">
 								<a href="/projects" class="homeCard__button">
@@ -100,7 +99,7 @@ exports.render = function () {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
